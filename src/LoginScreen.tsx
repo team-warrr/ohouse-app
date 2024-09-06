@@ -8,7 +8,7 @@ export default function LoginScreen() {
     <AppView>
       <WebView
         source={{
-          uri: 'https://google.com',
+          uri: 'https://ohouse-web.vercel.app/login',
         }}
         style={LoginScreenStyles.webview}
       />

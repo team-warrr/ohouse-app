@@ -8,7 +8,7 @@ export default function RecordChanllengeScreen() {
     <AppView>
       <WebView
         source={{
-          uri: 'https://google.com',
+          uri: 'https://ohouse-web.vercel.app/record-challenge',
         }}
         style={RecordChanllengeScreenStyles.webview}
       />

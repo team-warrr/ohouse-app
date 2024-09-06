@@ -8,7 +8,7 @@ export default function LuckyAttendanceScreen() {
     <AppView>
       <WebView
         source={{
-          uri: 'https://google.com',
+          uri: 'https://ohouse-web.vercel.app/attendance',
         }}
         style={LuckyAttendanceScreenStyles.webview}
       />

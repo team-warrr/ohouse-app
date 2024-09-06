@@ -8,7 +8,7 @@ export default function HomeScreen() {
     <AppView>
       <WebView
         source={{
-          uri: 'https://google.com',
+          uri: 'https://ohouse-web.vercel.app',
         }}
         style={HomeScreenStyles.webview}
       />
