@@ -12,7 +12,7 @@ const BottomTabs = createBottomTabNavigator();
 const NavigationProvider = () => {
   return (
     <NavigationContainer ref={navigationRef}>
-      <BottomTabs.Navigator>
+      <BottomTabs.Navigator screenOptions={{headerShown: false}}>
         <BottomTabs.Screen name="홈" component={HomeScreen} />
         <BottomTabs.Screen name="행운출첵" component={LuckyAttendanceScreen} />
         <BottomTabs.Screen
