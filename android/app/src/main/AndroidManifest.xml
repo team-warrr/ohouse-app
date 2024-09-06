@@ -29,12 +29,22 @@
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
-
+            
             <!-- 웹 링크를 처리할 도메인 설정 -->
             <data android:scheme="https"
                   android:host="ohouse-web.vercel.app" />
             <data android:scheme="https"
                   android:host="*.ohouse-web.vercel.app" />
+        </intent-filter>
+
+        <!-- URL Scheme을 위한 intent-filter -->
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            
+            <!-- URL Scheme 설정 -->
+            <data android:scheme="ohouseapp" />
         </intent-filter>
 
       </activity>
