@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 import WebView from 'react-native-webview';
 import AppView from './AppView';
 
-export default function RecordChanllengeScreen() {
+export default function RecordChallengeScreen() {
   return (
     <AppView>
       <WebView
