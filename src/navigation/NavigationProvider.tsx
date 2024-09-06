@@ -1,11 +1,11 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from './HomeScreen';
-import LoginScreen from './LoginScreen';
-import LuckyAttendanceScreen from './LuckyAttendanceScreen';
-import RecordChallengeScreen from './RecordChallenge';
-import {navigationRef} from './navigation/RootNavigation';
+import HomeScreen from '../screens/HomeScreen';
+import LoginScreen from '../screens/LoginScreen';
+import LuckyAttendanceScreen from '../screens/LuckyAttendanceScreen';
+import RecordChallengeScreen from '../screens/RecordChallengeScreen';
+import {navigationRef} from './RootNavigation';
 
 const BottomTabs = createBottomTabNavigator();
 

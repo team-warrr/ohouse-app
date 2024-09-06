@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect} from 'react';
 import {setupURLPolyfill} from 'react-native-url-polyfill';
 import {Alert, Linking} from 'react-native';
-import NavigationProvider from './NavigationProvider';
+import NavigationProvider from './navigation/NavigationProvider';
 import {RootParamList} from './types/Navigation';
 import {urlMap} from './constants/urlMap';
 import {navigate} from './navigation/RootNavigation';

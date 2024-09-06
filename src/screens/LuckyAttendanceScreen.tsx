@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import WebView from 'react-native-webview';
-import AppView from './AppView';
+import AppView from '../components/AppView';
 
 export default function LuckyAttendanceScreen() {
   return (
